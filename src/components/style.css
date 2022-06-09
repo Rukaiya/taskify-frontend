@@ -1,0 +1,31 @@
+.input{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+}
+
+.input_box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 7px 20px;
+    border-style: none;
+}
+
+.input_submit{
+    position: absolute;
+    right: 5px;
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #0891B2;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+}
+
+.input_submit:hover{
+    background-color: #155E75;
+}
